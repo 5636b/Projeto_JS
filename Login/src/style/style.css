@@ -10,21 +10,34 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-image: url("")
 }
 
 #container {
     display: flex;
     flex-direction: column;
-    border: 1px black solid;
+    border: none;
     width: 400px;
     height: 580px;
     align-items: center;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.435);
+    border-radius: 5px;
 }
 
 #container h1 {
     align-self: flex-start;
     margin-bottom: 20px;
+}
+
+#container .entrar {
+    color: white;
+    font-weight: 600;
+}
+
+#container .acesso {
+    color: white;
+    font-weight: 600;
 }
 
 form {
@@ -35,19 +48,38 @@ form {
     gap: 10px;
 }
 
-input[type="button"],
-[type="email"],
-[type="password"] {
+input[type="password"],
+[type="email"] {
     width: 300px;
     height: 40px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.591);
+}
+
+input::placeholder {
+    text-indent: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+input[type="button"] {
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
 }
 
 a {
     margin: 20px 0 20px 0;
+    color: white;
+    font-weight: 600;
 }
 
 label,
 p {
     align-self: flex-start;
     margin-bottom: 20px;
+    color: white;
+    font-weight: 600;
 }
