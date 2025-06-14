@@ -5,12 +5,11 @@
 }
 
 body {
-
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url("")
+    background-image: url("../img/imagem/pexels-jmark-2726370.jpg")
 }
 
 #container {
